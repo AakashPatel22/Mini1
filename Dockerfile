@@ -16,4 +16,4 @@ RUN dos2unix /app/calculator.sh
 RUN chmod +x /app/calculator.sh
 
 # Set the default command to execute calculator.sh
-CMD ["bash", "/app/calculator.sh"]
+ENTRYPOINT ["bash", "/app/calculator.sh"]
